@@ -1,0 +1,55 @@
+$font-stack: Helvetica,
+sans-serif;
+$primary-color: #333;
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    margin: 0;
+}
+
+:root {
+    --margin-left: 20px;
+    --margin-right: 20px;
+    --margin-top: 10px;
+}
+
+.header {
+    margin: 0;
+    height: 53px;
+}
+
+#logo {
+    height: 30px;
+    width: 50px;
+    margin-top: 10px;
+    border-right: solid 1px black;
+}
+
+#signature {
+    margin-top: 15px;
+    height: 30px;
+}
+
+#search {
+    margin-top: var(--margin-top);
+    height: 24px;
+    width: 215px;
+    border: solid 1px #a5a7ab;
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 15px;
+}
+
+#home {
+    margin-top: var(--margin-top);
+    height: 24px;
+}
+
+#messenger,
+#safari,
+#hearth,
+#account {
+    margin-top: var(--margin-top);
+    height: 24px;
+    background: white;
+}
