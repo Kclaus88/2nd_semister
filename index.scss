@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    ;
+}
+
+:root {
+    --font-color: #0d247d;
+    --back-font-color: #b7b9da;
+    --elements-bg-color: #f2f4f7;
+    --elements-back-bg-color: #e6e8f2;
+    --icons-color: #f2f4f7;
+}
+
+.container {
+    .row {
+        margin: 0;
+        h1 {
+            font-size: 30px;
+            margin-top: 20px;
+            font-weight: 900;
+            color: var(--font-color);
+        }
+        button,
+        #zero {
+            border-radius: 20px;
+        }
+        #one {
+            background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(157, 40, 143, 1)), color-stop(100%, rgba(55, 42, 127, 1)));
+        }
+        #content {
+            height: 500px;
+        }
+    }
+}
+
+#index-bg {
+    padding-top: 20px;
+    background-image: url("../pics/Screen\ Shot\ 2021-05-18\ at\ 23.13.02.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flex {
+    display: flex;
+}
