@@ -1,0 +1,27 @@
+#l {
+    width: 40%;
+    background-color: #f2f4f7;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    #l-row-one {
+        #l-row-one-content-one {
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.icon-colors {
+    color: #732a88;
+}
+
+#l-button-container {
+    #l-button {
+        background-color: #732a88;
+    }
+}

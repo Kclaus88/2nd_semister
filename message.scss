@@ -1,0 +1,28 @@
+#msg-con {
+    width: 50%;
+    border: solid 2px red;
+    #msg-header {
+        #msg-button {
+            margin-top: 20px;
+        }
+    }
+}
+
+#msg-card {
+    display: flex;
+}
+
+#search {
+    background-color: #fafafa;
+    border-radius: 20px;
+    height: 27px;
+}
+
+#msg-img {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    border-radius: 5px;
+    background-color: grey;
+    margin-right: 13px;
+}
